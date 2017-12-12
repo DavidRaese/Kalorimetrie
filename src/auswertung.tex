@@ -1,0 +1,100 @@
+\section{Auswertung}
+
+\subsection{Bestimmung von $C_{sys}$}
+Zur Ermittlung der Wäremkapzität des Systems wurde zweimal Benzoesäure verbrannt, durch den Anstieg der Temperatur kann man $\Delta T$ ermitteln. Mit der Formel $\Delta _c U = C_{sys} \Delta T$
+kann dann nach Umformen $C_{sys}$ berechnen. Zuerst muss aber noch die molare Verbrennungsenergie $\Delta_c U_{molar}$ in $\Delta_c U$ umgerechnet werden.
+\begin{align}
+	n          & = m/M                        \\
+	\Delta_c U & = \Delta_c U_{molar} \cdot n
+\end{align}
+
+
+\begin{align*}
+	\Delta_c U_1[Benz.] & = \Delta_c U_{molar} \cdot n_1 = -13.53 KJ \\
+	\Delta_c U_2[Benz.] & = \Delta_c U_{molar} \cdot n_2 = -15.22 KJ
+\end{align*}
+
+
+Jetzt können die einzelnen Werte in die Formel zur Berechnung der Wäremkapzität eingesetzt werden.
+
+\begin{align}
+	C_{sys} = \frac{\Delta_c U + Z}{\Delta T}
+\end{align}
+
+Wobei $Z$ für die Zündquellen steht, in unserem Fall für den Zünddraht und den Baumwollfaden.
+
+\begin{align*}
+	C_{sys}_1 = \frac{-13530J + 80J} {0.904K} = -14873 J/K \\
+	C_{sys}_2 = \frac{-15220J + 80J} {1.17K} = -12236 J/K
+\end{align*}
+
+Der gemittelte Wert der Wäremkapzität des Systems ist somit $C_{sys} = -13555 J/K$.
+%-----------------------------------------------------------------------------------------------------------------------------
+
+\subsection{Bestimmung der molaren Verbrennungsenergie der unbekannten Substanz}
+
+Da jetzt $C_{sys}$ bekannt ist, kann über die Formel (3) $\Delta _c U$ der unbekannten Substanz ermittelt werden.\\
+
+
+\begin{align*}
+	\Delta_c U_1[M] & = C_{sys} \cdot \Delta T_1 = -14233 J \\
+	\Delta_c U_2[M] & = C_{sys} \cdot \Delta T_2 = -15737 J
+\end{align*}
+
+Um die molare Verbrennungsenergie zu berechnen muss die 2. Formel nach $\Delta_c U_m$ umgeformt werden
+\begin{align*}
+	\Delta_c U_m  = \frac{\Delta_c U}{n}
+\end{align*}
+
+\begin{align*}
+	\Delta_c U_m_1  = \frac{-14604 J}{3.6 \cdot 10^{-3}} = -3898 KJ/mol \\
+	\Delta_c U_m_1  = \frac{-16148 J}{3.7 \cdot 10^{-3}} = -4153 KJ/mol
+\end{align*}
+
+Der gemittelte Wert ist somit $\Delta_c U_m = -4025 KJ/mol$
+
+\newpage
+%-----------------------------------------------------------------------------------------------------------------------------
+
+\subsection{Berechnung von $\Delta _f H$}
+\begin{enumerate}
+	\item aufstellen der Reaktionsgleichung:
+	      \begin{align*}
+		      C_7H_6O_2(s) + \frac{15}{2} O_2(g) \longrightarrow 7 CO_2(g) + 3 H_2O(l)
+	      \end{align*}
+	\item $\Delta _c H$ berechnen:
+	      \begin{align*}
+		      \Delta _c H & = \Delta _c U + \Delta n(g) R T                                   \\
+		      \Delta _c H & = -3226000 J/mol - (0.5 mol \cdot R \cdot 298.15K) = -3227 KJ/mol
+	      \end{align*}
+	\item Berechnung von $\Delta _f H$
+	      \begin{itemize}
+		      \item Gegeben:
+		            \begin{table}[H]
+			            \centering
+			            \begin{tabular}{ll}
+				            $\Delta _f H (CO_2 (g)) = -393.5 KJ/mol$ & $\Delta _f H (H_2O (l)) = -241.8 KJ/mol$ \\
+				            $\Delta _v H (H_2O) = 44 KJ/mol$         &
+			            \end{tabular}
+		            \end{table}
+		      \item $\Delta _f H (H_2O (g))$ berechnen:
+		            \begin{align*}
+			            \Delta _f H (H_2O (l)) = \Delta _f H (H_2O (g)) - \Delta _v H (H_2O) = -285.8 KJ/mol
+		            \end{align*}
+	      \end{itemize}
+	      \begin{align*}
+		      \Delta _f H = 3 \cdot \Delta _f H (H_2O (l)) + 7 \cdot \Delta _f H (CO_2 (g)) - \Delta _c H = -384.9 KJ/mol
+	      \end{align*}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
